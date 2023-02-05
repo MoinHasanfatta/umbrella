@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rotating Umbrellas</title>
+    <link rel="stylesheet" href="umbrella.css" />
+  </head>
+
+  <body>
+    <div class="one">
+      <img
+        id="umbrella"
+        src="../images/Blue umbrella.png"
+        alt="blue"
+        width="400px"
+      />
+      <div class="loader">
+        <img
+        id="loader"
+        src="../images//loader_icon.svg"
+        alt="loding"
+        width="200px"/>
+      </div>
+      <div class="brand"> STAR APPS</div>
+      <div class="text">
+        <h3>Custom Umbrella</h3>
+        <div class="changes">
+          <button id="btn1" onClick="blue()"></button>
+          <button id="btn2" onClick="yellow()"></button>
+          <button id="btn3" onClick="pink()"></button>
+        </div>
+
+        <h4>Customize your umbrella</h4>
+        <h5>Upload a logo for instant preview</h5>
+        <button type="button" id="logo">
+          <img src="../images/upload_icon.svg" alt="logo"/> Upload Logo
+        </button>
+      </div>
+    </div>
+
+    <script src="umbrella.js"></script>
+  </body>
+</html>
